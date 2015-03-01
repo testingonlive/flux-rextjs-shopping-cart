@@ -13,7 +13,7 @@ function loadProductData( data ){
     _selected = data[ 0 ].variants[ 0 ]; 
 }
 
-// Method to set the current selected poduct variation
+// Method to set the current selected product variation
 function setSelected( index ){
     _selected = _product.variants[ index ];
 }
